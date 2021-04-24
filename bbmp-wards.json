@@ -1,16 +1,5 @@
 [
   {
-    "zone": "Zone",
-    "division": "Division",
-    "sub_div": "Sub-division",
-    "ward_no": "Ward No.",
-    "ward_name": "Name",
-    "pin_code": [
-      "PIN Code"
-    ],
-    "telegram_group": null
-  },
-  {
     "zone": "Yelahanka",
     "division": "Yelahanka",
     "sub_div": "Yelahanka",
