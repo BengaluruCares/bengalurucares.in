@@ -1,0 +1,1328 @@
+[
+  {
+    "Division": "Yelahanka",
+    "Sub-Division": [
+      {
+        "Name": "Yelahanka",
+        "Warden-Details": [
+          {
+            "Number": "1",
+            "Name": "Kempegowda Ward"
+          },
+          {
+            "Number": "2",
+            "Name": "Chowdeshwari Ward"
+          }
+        ],
+        "Zip": "64"
+      },
+      {
+        "Name": "Yelahanka Satellite Town",
+        "Warden-Details": [
+          {
+            "Number": "3",
+            "Name": "Attur"
+          },
+          {
+            "Number": "4",
+            "Name": "Yelahanka Satellite town"
+          }
+        ],
+        "Zip": "64"
+      }
+    ]
+  },
+  {
+    "Division": "Byatarayanapura",
+    "Sub-Division": [
+      {
+        "Name": "Byatarayanapura",
+        "Warden-Details": [
+          {
+            "Number": "5",
+            "Name": "Jakkur"
+          },
+          {
+            "Number": "6",
+            "Name": "Thanisandra"
+          }
+        ],
+        "Zip": "64"
+      },
+      {
+        "Name": "Kodigehalli",
+        "Warden-Details": [
+          {
+            "Number": "7",
+            "Name": "Byatarayanapura"
+          },
+          {
+            "Number": "8",
+            "Name": "Kodigehalli"
+          }
+        ],
+        "Zip": "92"
+      },
+      {
+        "Name": "Vidyaranyapura",
+        "Warden-Details": [
+          {
+            "Number": "9",
+            "Name": "Vidyaranyapura"
+          },
+          {
+            "Number": "10",
+            "Name": "Doddabommasandra"
+          },
+          {
+            "Number": "11",
+            "Name": "Kuvempunagar"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "K.R. Puram",
+    "Sub-Division": [
+      {
+        "Name": "Horamavu",
+        "Warden-Details": [
+          {
+            "Number": "25",
+            "Name": "Horamavu"
+          },
+          {
+            "Number": "26",
+            "Name": "Ramamurthynagar"
+          },
+          {
+            "Number": "51",
+            "Name": "Vijinapura"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "K.R.Puram",
+        "Warden-Details": [
+          {
+            "Number": "52",
+            "Name": "K.R.Puram"
+          },
+          {
+            "Number": "53",
+            "Name": "Basavanapura"
+          },
+          {
+            "Number": "55",
+            "Name": "Devasandra"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "HAL Airport",
+        "Warden-Details": [
+          {
+            "Number": "56",
+            "Name": "A. Narayanapura"
+          },
+          {
+            "Number": "81",
+            "Name": "Vignananagar"
+          },
+          {
+            "Number": "87",
+            "Name": "HAL Airport"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "Mahadevapura",
+    "Sub-Division": [
+      {
+        "Name": "Hoodi",
+        "Warden-Details": [
+          {
+            "Number": "54",
+            "Name": "Hoodi"
+          },
+          {
+            "Number": "82",
+            "Name": "Garudacharpalya"
+          },
+          {
+            "Number": "85",
+            "Name": "Doddanekkundi"
+          }
+        ],
+        "Zip": "48"
+      },
+      {
+        "Name": "Whitefield",
+        "Warden-Details": [
+          {
+            "Number": "83",
+            "Name": "Kadugodi"
+          },
+          {
+            "Number": "84",
+            "Name": "Hagadooru"
+          },
+          {
+            "Number": "149",
+            "Name": "Varthur"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "Marathalli",
+        "Warden-Details": [
+          {
+            "Number": "86",
+            "Name": "Marathalli"
+          },
+          {
+            "Number": "150",
+            "Name": "Bellandur"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "Dasarahalli",
+    "Sub-Division": [
+      {
+        "Name": "Shettyhalli",
+        "Warden-Details": [
+          {
+            "Number": "12",
+            "Name": "Shettyhalli"
+          },
+          {
+            "Number": "13",
+            "Name": "Mallasandra"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "T-Dasarahalli",
+        "Warden-Details": [
+          {
+            "Number": "14",
+            "Name": "Bagalagunte"
+          },
+          {
+            "Number": "15",
+            "Name": "T. Dasarahalli"
+          }
+        ],
+        "Zip": "57"
+      }
+    ]
+  },
+  {
+    "Division": "Hegganahalli",
+    "Sub-Division": [
+      {
+        "Name": "Peenya Industrial Area",
+        "Warden-Details": [
+          {
+            "Number": "39",
+            "Name": "Chokkasandra"
+          },
+          {
+            "Number": "41",
+            "Name": "Peenya Industrial Area"
+          }
+        ],
+        "Zip": "58"
+      },
+      {
+        "Name": "Hegganahalli",
+        "Warden-Details": [
+          {
+            "Number": "70",
+            "Name": "Rajagopalanagar"
+          },
+          {
+            "Number": "71",
+            "Name": "Hegganahalli"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "Rajarajeshwari Nagar",
+    "Sub-Division": [
+      {
+        "Name": "Rajarajeshwari nagar",
+        "Warden-Details": [
+          {
+            "Number": "160",
+            "Name": "Rajarajeshwarinagar"
+          },
+          {
+            "Number": "129",
+            "Name": "Jnanabharathi ward"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "Laggere",
+        "Warden-Details": [
+          {
+            "Number": "69",
+            "Name": "Laggere"
+          },
+          {
+            "Number": "73",
+            "Name": "Kottigepalya"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "Yeshwanthpur",
+    "Sub-Division": [
+      {
+        "Name": "Lakshmidevinagar",
+        "Warden-Details": [
+          {
+            "Number": "38",
+            "Name": "H.M.T"
+          },
+          {
+            "Number": "42",
+            "Name": "Lakshmidevinagar"
+          }
+        ],
+        "Zip": "22"
+      },
+      {
+        "Name": "Yeshwanthpur",
+        "Warden-Details": [
+          {
+            "Number": "16",
+            "Name": "Jalahalli"
+          },
+          {
+            "Number": "17",
+            "Name": "J.P.Park"
+          },
+          {
+            "Number": "37",
+            "Name": "Yeshwanthpur"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "Kengeri",
+    "Sub-Division": [
+      {
+        "Name": "Kengeri",
+        "Warden-Details": [
+          {
+            "Number": "130",
+            "Name": "Ullalu"
+          },
+          {
+            "Number": "159",
+            "Name": "Kengeri"
+          },
+          {
+            "Number": "198",
+            "Name": "Hemmigepura"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "Herohalli",
+        "Warden-Details": [
+          {
+            "Number": "40",
+            "Name": "Doddabidarakallu"
+          },
+          {
+            "Number": "72",
+            "Name": "Herohalli"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "Bommanahalli",
+    "Sub-Division": [
+      {
+        "Name": "Bommanahalli",
+        "Warden-Details": [
+          {
+            "Number": "175",
+            "Name": "Bommanahalli"
+          },
+          {
+            "Number": "188",
+            "Name": "Bilekahalli"
+          },
+          {
+            "Number": "189",
+            "Name": "Hongasandra"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "Arakere",
+        "Warden-Details": [
+          {
+            "Number": "186",
+            "Name": "Jaraganahalli"
+          },
+          {
+            "Number": "187",
+            "Name": "Puttenahalli"
+          },
+          {
+            "Number": "193",
+            "Name": "Arakere"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "HSR Layout",
+        "Warden-Details": [
+          {
+            "Number": "174",
+            "Name": "HSR Layout"
+          },
+          {
+            "Number": "190",
+            "Name": "Mangammanapalya"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "Anjanapur",
+    "Sub-Division": [
+      {
+        "Name": "Begur",
+        "Warden-Details": [
+          {
+            "Number": "191",
+            "Name": "Singasandra"
+          },
+          {
+            "Number": "192",
+            "Name": "Begur"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "Anjanapura",
+        "Warden-Details": [
+          {
+            "Number": "194",
+            "Name": "Gottigere"
+          },
+          {
+            "Number": "196",
+            "Name": "Anjanapura"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "Uttarahalli",
+    "Sub-Division": [
+      {
+        "Name": "Yelachenahalli",
+        "Warden-Details": [
+          {
+            "Number": "195",
+            "Name": "Konanakunte"
+          },
+          {
+            "Number": "185",
+            "Name": "Yelachenahalli"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "Uttarahalli",
+        "Warden-Details": [
+          {
+            "Number": "184",
+            "Name": "Uttarahalli"
+          },
+          {
+            "Number": "197",
+            "Name": "Vasanthapura"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "Mahalakshmi Layout",
+    "Sub-Division": [
+      {
+        "Name": "Mahalakshmi Layout",
+        "Warden-Details": [
+          {
+            "Number": "43",
+            "Name": "Nandini Layout"
+          },
+          {
+            "Number": "44",
+            "Name": "Marappanahalli"
+          },
+          {
+            "Number": "68",
+            "Name": "Mahalakshmipuram"
+          },
+          {
+            "Number": "74",
+            "Name": "Shakthiganapathi nagar"
+          }
+        ],
+        "Zip": "10"
+      },
+      {
+        "Name": "Nagapura",
+        "Warden-Details": [
+          {
+            "Number": "67",
+            "Name": "Nagapura"
+          },
+          {
+            "Number": "75",
+            "Name": "Shankaramata"
+          },
+          {
+            "Number": "102",
+            "Name": "Vrushabhavathinagar"
+          }
+        ],
+        "Zip": "10"
+      }
+    ]
+  },
+  {
+    "Division": "Malleshwaram",
+    "Sub-Division": [
+      {
+        "Name": "Mathikere",
+        "Warden-Details": [
+          {
+            "Number": "35",
+            "Name": "Aramane Nagar"
+          },
+          {
+            "Number": "36",
+            "Name": "Mathikere"
+          },
+          {
+            "Number": "45",
+            "Name": "Malleshwaram"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "Malleshwaram",
+        "Warden-Details": [
+          {
+            "Number": "64",
+            "Name": "Rajamahal"
+          },
+          {
+            "Number": "65",
+            "Name": "Kadumalleshwara"
+          },
+          {
+            "Number": "66",
+            "Name": "Subramanyanagar"
+          },
+          {
+            "Number": "76",
+            "Name": "Gayathrinagar"
+          }
+        ],
+        "Zip": "3"
+      }
+    ]
+  },
+  {
+    "Division": "Rajajinagar",
+    "Sub-Division": [
+      {
+        "Name": "Rajajinagar",
+        "Warden-Details": [
+          {
+            "Number": "99",
+            "Name": "Rajajinagar"
+          },
+          {
+            "Number": "100",
+            "Name": "Basaveshwaranagar"
+          },
+          {
+            "Number": "101",
+            "Name": "Kamakshipalya"
+          },
+          {
+            "Number": "107",
+            "Name": "Shivanagar"
+          }
+        ],
+        "Zip": "10"
+      },
+      {
+        "Name": "Srirammandira",
+        "Warden-Details": [
+          {
+            "Number": "97",
+            "Name": "Dayanandanagar"
+          },
+          {
+            "Number": "98",
+            "Name": "Prakashnagar"
+          },
+          {
+            "Number": "108",
+            "Name": "Srirammandira ward"
+          }
+        ],
+        "Zip": "11"
+      }
+    ]
+  },
+  {
+    "Division": "Gandhinagar",
+    "Sub-Division": [
+      {
+        "Name": "Gandhinagar",
+        "Warden-Details": [
+          {
+            "Number": "77",
+            "Name": "Dattathreya Temple"
+          },
+          {
+            "Number": "94",
+            "Name": "Gandhinagar"
+          },
+          {
+            "Number": "95",
+            "Name": "Subhashnagar"
+          },
+          {
+            "Number": "96",
+            "Name": "Okalipuram"
+          }
+        ],
+        "Zip": "53"
+      },
+      {
+        "Name": "Chikpet",
+        "Warden-Details": [
+          {
+            "Number": "109",
+            "Name": "Chikpet"
+          },
+          {
+            "Number": "120",
+            "Name": "Cottonpet"
+          },
+          {
+            "Number": "121",
+            "Name": "Binnypet"
+          }
+        ],
+        "Zip": "53"
+      }
+    ]
+  },
+  {
+    "Division": "Chamarajpet",
+    "Sub-Division": [
+      {
+        "Name": "Jagajeevanram Nagar",
+        "Warden-Details": [
+          {
+            "Number": "135",
+            "Name": "Padarayanapura"
+          },
+          {
+            "Number": "136",
+            "Name": "Jagareevanram Nagar"
+          },
+          {
+            "Number": "137",
+            "Name": "Rayapuram"
+          },
+          {
+            "Number": "138",
+            "Name": "Chalavadipalya"
+          }
+        ],
+        "Zip": "53"
+      },
+      {
+        "Name": "Chamarajpet",
+        "Warden-Details": [
+          {
+            "Number": "139",
+            "Name": "K.R. Market"
+          },
+          {
+            "Number": "140",
+            "Name": "Chamrajpet"
+          },
+          {
+            "Number": "141",
+            "Name": "Azadnagar"
+          }
+        ],
+        "Zip": "54"
+      }
+    ]
+  },
+  {
+    "Division": "Govindraja nagar",
+    "Sub-Division": [
+      {
+        "Name": "Govindrajanagar",
+        "Warden-Details": [
+          {
+            "Number": "103",
+            "Name": "Kaveripura"
+          },
+          {
+            "Number": "104",
+            "Name": "Govindrajnagara"
+          },
+          {
+            "Number": "105",
+            "Name": "Agrahara Dasarahalli"
+          },
+          {
+            "Number": "106",
+            "Name": "Dr. Rajkumar Ward"
+          },
+          {
+            "Number": "125",
+            "Name": "Marenahalli"
+          }
+        ],
+        "Zip": "79"
+      },
+      {
+        "Name": "Chandralayout",
+        "Warden-Details": [
+          {
+            "Number": "126",
+            "Name": "Maruthi Mandira Ward"
+          },
+          {
+            "Number": "127",
+            "Name": "Moodalapalya"
+          },
+          {
+            "Number": "128",
+            "Name": "Nagarabhavi"
+          },
+          {
+            "Number": "131",
+            "Name": "Nayandanahalli"
+          }
+        ],
+        "Zip": "79"
+      }
+    ]
+  },
+  {
+    "Division": "Chikpet",
+    "Sub-Division": [
+      {
+        "Name": "Kempegowda Nagar",
+        "Warden-Details": [
+          {
+            "Number": "118",
+            "Name": "Sudamnagar"
+          },
+          {
+            "Number": "119",
+            "Name": "Dharmarayaswamy Temple Road"
+          },
+          {
+            "Number": "142",
+            "Name": "Sunkenahalli"
+          },
+          {
+            "Number": "143",
+            "Name": "Vishweshrapuram"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "Hombegowda Nagar",
+        "Warden-Details": [
+          {
+            "Number": "144",
+            "Name": "Siddapura"
+          },
+          {
+            "Number": "145",
+            "Name": "Hombegowdanagar"
+          },
+          {
+            "Number": "153",
+            "Name": "Jayanagar"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "Vijayanagar",
+    "Sub-Division": [
+      {
+        "Name": "Vijayanagar",
+        "Warden-Details": [
+          {
+            "Number": "122",
+            "Name": "Kempapura Agrahara"
+          },
+          {
+            "Number": "123",
+            "Name": "Vijaynagar"
+          },
+          {
+            "Number": "124",
+            "Name": "Hosahalli"
+          },
+          {
+            "Number": "134",
+            "Name": "Bapujinagar"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "Gali Anjaneyaswamy Temple",
+        "Warden-Details": [
+          {
+            "Number": "132",
+            "Name": "Attiguppe"
+          },
+          {
+            "Number": "133",
+            "Name": "Hampinagar"
+          },
+          {
+            "Number": "157",
+            "Name": "Gali Anjaneya swamy Temple Ward"
+          },
+          {
+            "Number": "158",
+            "Name": "Deepanjali Nagar"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "Basavanagudi",
+    "Sub-Division": [
+      {
+        "Name": "Basavanagudi",
+        "Warden-Details": [
+          {
+            "Number": "154",
+            "Name": "Basavanagudi"
+          },
+          {
+            "Number": "155",
+            "Name": "Hanumanthanagar"
+          },
+          {
+            "Number": "164",
+            "Name": "Vidyapeetha Ward"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "Girinagar",
+        "Warden-Details": [
+          {
+            "Number": "156",
+            "Name": "Srinagar"
+          },
+          {
+            "Number": "162",
+            "Name": "Girinagar"
+          },
+          {
+            "Number": "163",
+            "Name": "Katriguppe"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "Padmanabha Nagar",
+    "Sub-Division": [
+      {
+        "Name": "Padmanabha Nagar",
+        "Warden-Details": [
+          {
+            "Number": "161",
+            "Name": "Hosakerehalli"
+          },
+          {
+            "Number": "181",
+            "Name": "Kumaraswamylayout"
+          },
+          {
+            "Number": "182",
+            "Name": "Padmanabhanagar"
+          },
+          {
+            "Number": "183",
+            "Name": "Chikkallasandra"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "Banashankari",
+        "Warden-Details": [
+          {
+            "Number": "165",
+            "Name": "Ganeshmandira Ward"
+          },
+          {
+            "Number": "166",
+            "Name": "Karisandra"
+          },
+          {
+            "Number": "167",
+            "Name": "Yadiyuru"
+          },
+          {
+            "Number": "180",
+            "Name": "Banashankari Temple Ward"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "B.T.M. Layout",
+    "Sub-Division": [
+      {
+        "Name": "B.T.M. Layout",
+        "Warden-Details": [
+          {
+            "Number": "146",
+            "Name": "Lakkasandra"
+          },
+          {
+            "Number": "152",
+            "Name": "Sudduguntepalya"
+          },
+          {
+            "Number": "172",
+            "Name": "Madiwala"
+          },
+          {
+            "Number": "176",
+            "Name": "BTM Layout"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "Koramangala",
+        "Warden-Details": [
+          {
+            "Number": "147",
+            "Name": "Adugodi"
+          },
+          {
+            "Number": "148",
+            "Name": "Ejipura"
+          },
+          {
+            "Number": "151",
+            "Name": "Koramangala"
+          },
+          {
+            "Number": "173",
+            "Name": "Jakkasandra"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "Jayanagar",
+    "Sub-Division": [
+      {
+        "Name": "Jayanagar",
+        "Warden-Details": [
+          {
+            "Number": "168",
+            "Name": "Pattabhiramnagar"
+          },
+          {
+            "Number": "169",
+            "Name": "Byrasandra"
+          },
+          {
+            "Number": "170",
+            "Name": "Jayanagar East"
+          },
+          {
+            "Number": "171",
+            "Name": "Gurappanapalya"
+          }
+        ],
+        "Zip": "11"
+      },
+      {
+        "Name": "J.P.Nagar",
+        "Warden-Details": [
+          {
+            "Number": "177",
+            "Name": "J.P.Nagar"
+          },
+          {
+            "Number": "178",
+            "Name": "Sarakki"
+          },
+          {
+            "Number": "179",
+            "Name": "Shakambarinagar"
+          }
+        ],
+        "Zip": "11"
+      }
+    ]
+  },
+  {
+    "Division": "Hebbal",
+    "Sub-Division": [
+      {
+        "Name": "Hebbal",
+        "Warden-Details": [
+          {
+            "Number": "18",
+            "Name": "Radhakrishna Temple Ward"
+          },
+          {
+            "Number": "19",
+            "Name": "Sanjaynagar"
+          },
+          {
+            "Number": "20",
+            "Name": "Ganganagar"
+          },
+          {
+            "Number": "21",
+            "Name": "Hebbal"
+          }
+        ],
+        "Zip": "52"
+      },
+      {
+        "Name": "J.C. Nagar",
+        "Warden-Details": [
+          {
+            "Number": "22",
+            "Name": "Vishwanatha Nagenahalli"
+          },
+          {
+            "Number": "33",
+            "Name": "Manorayanapalya"
+          },
+          {
+            "Number": "34",
+            "Name": "Gangenahalli"
+          },
+          {
+            "Number": "46",
+            "Name": "Jayachamarajendra Nagar"
+          }
+        ],
+        "Zip": "52"
+      }
+    ]
+  },
+  {
+    "Division": "Pulikeshinagar",
+    "Sub-Division": [
+      {
+        "Name": "K.G. Halli",
+        "Warden-Details": [
+          {
+            "Number": "31",
+            "Name": "Kushalnagar"
+          },
+          {
+            "Number": "32",
+            "Name": "Kavalbyrasandra"
+          },
+          {
+            "Number": "48",
+            "Name": "Muneshwaranagar"
+          },
+          {
+            "Number": "60",
+            "Name": "Sagayapuram"
+          }
+        ],
+        "Zip": "52"
+      },
+      {
+        "Name": "Pulikeshinagar",
+        "Warden-Details": [
+          {
+            "Number": "47",
+            "Name": "Devarajeevanahalli"
+          },
+          {
+            "Number": "61",
+            "Name": "S.K. Garden"
+          },
+          {
+            "Number": "78",
+            "Name": "Pulikeshinagar"
+          }
+        ],
+        "Zip": "52"
+      }
+    ]
+  },
+  {
+    "Division": "Sarvagna Nagar",
+    "Sub-Division": [
+      {
+        "Name": "Maruthisevanagar",
+        "Warden-Details": [
+          {
+            "Number": "27",
+            "Name": "Banasawadi"
+          },
+          {
+            "Number": "28",
+            "Name": "Kammanahalli"
+          },
+          {
+            "Number": "49",
+            "Name": "Lingarajapura"
+          },
+          {
+            "Number": "59",
+            "Name": "Maruthiseva Nagar"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "H.B.R. Layout",
+        "Warden-Details": [
+          {
+            "Number": "23",
+            "Name": "Nagavara"
+          },
+          {
+            "Number": "24",
+            "Name": "HBR Layout"
+          },
+          {
+            "Number": "29",
+            "Name": "Kacharakanahalli"
+          },
+          {
+            "Number": "30",
+            "Name": "Kadugondanahalli"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "C.V. Raman Nagar",
+    "Sub-Division": [
+      {
+        "Name": "Jeevanbhimanagar",
+        "Warden-Details": [
+          {
+            "Number": "80",
+            "Name": "Hoysalanagar"
+          },
+          {
+            "Number": "88",
+            "Name": "Jeevanbhimanagar"
+          },
+          {
+            "Number": "113",
+            "Name": "Konena Agrahara"
+          }
+        ],
+        "Zip": "8"
+      },
+      {
+        "Name": "C.V. Ramannagar",
+        "Warden-Details": [
+          {
+            "Number": "50",
+            "Name": "Benniganahalli"
+          },
+          {
+            "Number": "57",
+            "Name": "C.V. Ramannagar"
+          },
+          {
+            "Number": "58",
+            "Name": "Hosathippasandra"
+          },
+          {
+            "Number": "79",
+            "Name": "Sarvagnanagar"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "Shanthinagar",
+    "Sub-Division": [
+      {
+        "Name": "Shanthinagar",
+        "Warden-Details": [
+          {
+            "Number": "111",
+            "Name": "Shanthala Nagar"
+          },
+          {
+            "Number": "116",
+            "Name": "Neelasandra"
+          },
+          {
+            "Number": "117",
+            "Name": "Shanthinagar"
+          }
+        ],
+        "Zip": NaN
+      },
+      {
+        "Name": "Domlur",
+        "Warden-Details": [
+          {
+            "Number": "89",
+            "Name": "Jogupalya"
+          },
+          {
+            "Number": "112",
+            "Name": "Domlur"
+          },
+          {
+            "Number": "114",
+            "Name": "Agaram"
+          },
+          {
+            "Number": "115",
+            "Name": "Vannarpet"
+          }
+        ],
+        "Zip": NaN
+      }
+    ]
+  },
+  {
+    "Division": "Shivajinagar",
+    "Sub-Division": [
+      {
+        "Name": "Shivajinagar",
+        "Warden-Details": [
+          {
+            "Number": "90",
+            "Name": "Ulsoor"
+          },
+          {
+            "Number": "91",
+            "Name": "Bharathinagar"
+          },
+          {
+            "Number": "92",
+            "Name": "Shivajinagar"
+          }
+        ],
+        "Zip": "52"
+      },
+      {
+        "Name": "Vasanthanagar",
+        "Warden-Details": [
+          {
+            "Number": "62",
+            "Name": "Ramaswamy palya"
+          },
+          {
+            "Number": "63",
+            "Name": "Jayamahal"
+          },
+          {
+            "Number": "93",
+            "Name": "Vasanthnagar"
+          },
+          {
+            "Number": "110",
+            "Name": "Sampangiramnagar"
+          }
+        ],
+        "Zip": "52"
+      }
+    ]
+  }
+]
