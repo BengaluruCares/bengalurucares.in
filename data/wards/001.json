@@ -1,1 +1,2180 @@
-{}
+[
+  {
+    "zone": "Yelahanka",
+    "division": "Yelahanka",
+    "sub_div": "Yelahanka",
+    "ward_no": "1",
+    "ward_name": "Kempegowda",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Yelahanka",
+    "division": "Yelahanka",
+    "sub_div": "Yelahanka",
+    "ward_no": "2",
+    "ward_name": "Chowdeshwari",
+    "pin_code": [
+      "560054"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Yelahanka",
+    "division": "Yelahanka",
+    "sub_div": "Yelahanka Satellite Town",
+    "ward_no": "3",
+    "ward_name": "Attur",
+    "pin_code": [
+      "560064"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Yelahanka",
+    "division": "Yelahanka",
+    "sub_div": "Yelahanka Satellite Town",
+    "ward_no": "4",
+    "ward_name": "Yelahanka Satellite Town",
+    "pin_code": [
+      "560064"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Yelahanka",
+    "division": "Byatarayanapura",
+    "sub_div": "Byatarayanapura",
+    "ward_no": "5",
+    "ward_name": "Jakkur",
+    "pin_code": [
+      "560064"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Yelahanka",
+    "division": "Byatarayanapura",
+    "sub_div": "Byatarayanapura",
+    "ward_no": "6",
+    "ward_name": "Thanisandra",
+    "pin_code": [
+      "560045"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Yelahanka",
+    "division": "Byatarayanapura",
+    "sub_div": "Kodigehalli",
+    "ward_no": "7",
+    "ward_name": "Byatarayanapura",
+    "pin_code": [
+      "560092"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Yelahanka",
+    "division": "Byatarayanapura",
+    "sub_div": "Kodigehalli",
+    "ward_no": "8",
+    "ward_name": "Kodigehalli",
+    "pin_code": [
+      "560092"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Yelahanka",
+    "division": "Byatarayanapura",
+    "sub_div": "Vidyaranyapura",
+    "ward_no": "9",
+    "ward_name": "Vidyaranyapura",
+    "pin_code": [
+      "560097"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Yelahanka",
+    "division": "Byatarayanapura",
+    "sub_div": "Vidyaranyapura",
+    "ward_no": "10",
+    "ward_name": "Doddabommasandra",
+    "pin_code": [
+      "560097"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Yelahanka",
+    "division": "Byatarayanapura",
+    "sub_div": "Vidyaranyapura",
+    "ward_no": "11",
+    "ward_name": "Kuvempunagar",
+    "pin_code": [
+      "560014"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Mahadevapura",
+    "division": "K.R. Puram",
+    "sub_div": "Horamavu",
+    "ward_no": "25",
+    "ward_name": "Horamavu",
+    "pin_code": [
+      "560043"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Mahadevapura",
+    "division": "K.R. Puram",
+    "sub_div": "Horamavu",
+    "ward_no": "26",
+    "ward_name": "Ramamurthynagar",
+    "pin_code": [
+      "560016"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Mahadevapura",
+    "division": "K.R. Puram",
+    "sub_div": "Horamavu",
+    "ward_no": "51",
+    "ward_name": "Vijinapura",
+    "pin_code": [
+      "560016"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Mahadevapura",
+    "division": "K.R. Puram",
+    "sub_div": "K.R. Puram",
+    "ward_no": "52",
+    "ward_name": "K.R. Puram",
+    "pin_code": [
+      "560036"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Mahadevapura",
+    "division": "K.R. Puram",
+    "sub_div": "K.R. Puram",
+    "ward_no": "53",
+    "ward_name": "Basavanapura",
+    "pin_code": [
+      "562106"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Mahadevapura",
+    "division": "K.R. Puram",
+    "sub_div": "K.R. Puram",
+    "ward_no": "55",
+    "ward_name": "Devasandra",
+    "pin_code": [
+      "560036"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Mahadevapura",
+    "division": "K.R. Puram",
+    "sub_div": "HAL Airport",
+    "ward_no": "56",
+    "ward_name": "A. Narayanapura",
+    "pin_code": [
+      "560016"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Mahadevapura",
+    "division": "K.R. Puram",
+    "sub_div": "HAL Airport",
+    "ward_no": "81",
+    "ward_name": "Vignananagar",
+    "pin_code": [
+      "560037"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Mahadevapura",
+    "division": "K.R. Puram",
+    "sub_div": "HAL Airport",
+    "ward_no": "87",
+    "ward_name": "HAL Airport",
+    "pin_code": [
+      "560017"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Mahadevapura",
+    "division": "Mahadevapura",
+    "sub_div": "Hoodi",
+    "ward_no": "54",
+    "ward_name": "Hoodi",
+    "pin_code": [
+      "560048"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Mahadevapura",
+    "division": "Mahadevapura",
+    "sub_div": "Hoodi",
+    "ward_no": "82",
+    "ward_name": "Garudacharpalya",
+    "pin_code": [
+      "560048"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Mahadevapura",
+    "division": "Mahadevapura",
+    "sub_div": "Hoodi",
+    "ward_no": "85",
+    "ward_name": "Doddanekundi",
+    "pin_code": [
+      "560037"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Mahadevapura",
+    "division": "Mahadevapura",
+    "sub_div": "Whitefield",
+    "ward_no": "83",
+    "ward_name": "Kadugodi",
+    "pin_code": [
+      "560067"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Mahadevapura",
+    "division": "Mahadevapura",
+    "sub_div": "Whitefield",
+    "ward_no": "84",
+    "ward_name": "Hagaduru",
+    "pin_code": [
+      "560066"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Mahadevapura",
+    "division": "Mahadevapura",
+    "sub_div": "Whitefield",
+    "ward_no": "149",
+    "ward_name": "Varthur",
+    "pin_code": [
+      "560087"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Dasarahalli",
+    "division": "Mahadevapura",
+    "sub_div": "Marathalli",
+    "ward_no": "86",
+    "ward_name": "Marathalli",
+    "pin_code": [
+      "560037"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Dasarahalli",
+    "division": "Mahadevapura",
+    "sub_div": "Marathalli",
+    "ward_no": "150",
+    "ward_name": "Bellandur",
+    "pin_code": [
+      "560103"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Dasarahalli",
+    "division": "Dasarahalli",
+    "sub_div": "Shettyhalli",
+    "ward_no": "12",
+    "ward_name": "Shettyhalli",
+    "pin_code": [
+      "560015"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Dasarahalli",
+    "division": "Dasarahalli",
+    "sub_div": "Shettyhalli",
+    "ward_no": "13",
+    "ward_name": "Mallasandra",
+    "pin_code": [
+      "561207"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Dasarahalli",
+    "division": "Dasarahalli",
+    "sub_div": "T. Dasarahalli",
+    "ward_no": "14",
+    "ward_name": "Bagalagunte",
+    "pin_code": [
+      "560073"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Dasarahalli",
+    "division": "Dasarahalli",
+    "sub_div": "T. Dasarahalli",
+    "ward_no": "15",
+    "ward_name": "T. Dasarahalli",
+    "pin_code": [
+      "560057"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Dasarahalli",
+    "division": "Hegganahalli",
+    "sub_div": "Peenya Industrial Area",
+    "ward_no": "39",
+    "ward_name": "Chokkasandra",
+    "pin_code": [
+      "560057"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Dasarahalli",
+    "division": "Hegganahalli",
+    "sub_div": "Peenya Industrial Area",
+    "ward_no": "41",
+    "ward_name": "Peenya Industrial Area",
+    "pin_code": [
+      "560058"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Dasarahalli",
+    "division": "Hegganahalli",
+    "sub_div": "Hegganahalli",
+    "ward_no": "70",
+    "ward_name": "Rajagopalanagar",
+    "pin_code": [
+      "560058"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Dasarahalli",
+    "division": "Hegganahalli",
+    "sub_div": "Hegganahalli",
+    "ward_no": "71",
+    "ward_name": "Hegganahalli",
+    "pin_code": [
+      "562110"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Rajarajeshwari Nagar",
+    "division": "Rajarajeshwari Nagar",
+    "sub_div": "Rajarajeshwari Nagar",
+    "ward_no": "160",
+    "ward_name": "Rajarajeshwarinagar",
+    "pin_code": [
+      "560098"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Rajarajeshwari Nagar",
+    "division": "Rajarajeshwari Nagar",
+    "sub_div": "Rajarajeshwari Nagar",
+    "ward_no": "129",
+    "ward_name": "Jnanabharathi",
+    "pin_code": [
+      "560056"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Rajarajeshwari Nagar",
+    "division": "Rajarajeshwari Nagar",
+    "sub_div": "Laggere",
+    "ward_no": "69",
+    "ward_name": "Laggere",
+    "pin_code": [
+      "560058"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Rajarajeshwari Nagar",
+    "division": "Rajarajeshwari Nagar",
+    "sub_div": "Laggere",
+    "ward_no": "73",
+    "ward_name": "Kottigepalya",
+    "pin_code": [
+      "560091"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Rajarajeshwari Nagar",
+    "division": "Yeshwanthapur",
+    "sub_div": "Lakshmidevinagar",
+    "ward_no": "38",
+    "ward_name": "H.M.T.",
+    "pin_code": [
+      "560013"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Rajarajeshwari Nagar",
+    "division": "Yeshwanthapur",
+    "sub_div": "Lakshmidevinagar",
+    "ward_no": "42",
+    "ward_name": "Lakshmidevinagar",
+    "pin_code": [
+      "560096"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Rajarajeshwari Nagar",
+    "division": "Yeshwanthapur",
+    "sub_div": "Yeshwanthpur",
+    "ward_no": "16",
+    "ward_name": "Jalahalli",
+    "pin_code": [
+      "560013"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Rajarajeshwari Nagar",
+    "division": "Yeshwanthapur",
+    "sub_div": "Yeshwanthpur",
+    "ward_no": "17",
+    "ward_name": "J.P. Park",
+    "pin_code": [
+      "560054"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Rajarajeshwari Nagar",
+    "division": "Yeshwanthapur",
+    "sub_div": "Yeshwanthpur",
+    "ward_no": "37",
+    "ward_name": "Yeshwanthpur",
+    "pin_code": [
+      "560022"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Rajarajeshwari Nagar",
+    "division": "Kengeri",
+    "sub_div": "Kengeri",
+    "ward_no": "130",
+    "ward_name": "Ullalu",
+    "pin_code": [
+      "560110"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Rajarajeshwari Nagar",
+    "division": "Kengeri",
+    "sub_div": "Kengeri",
+    "ward_no": "159",
+    "ward_name": "Kengeri",
+    "pin_code": [
+      "560060"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Rajarajeshwari Nagar",
+    "division": "Kengeri",
+    "sub_div": "Kengeri",
+    "ward_no": "198",
+    "ward_name": "Hemmigepura",
+    "pin_code": [
+      "560060"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Rajarajeshwari Nagar",
+    "division": "Kengeri",
+    "sub_div": "Herohalli",
+    "ward_no": "40",
+    "ward_name": "Doddabidarakallu",
+    "pin_code": [
+      "560073"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Rajarajeshwari Nagar",
+    "division": "Kengeri",
+    "sub_div": "Herohalli",
+    "ward_no": "72",
+    "ward_name": "Herohalli",
+    "pin_code": [
+      "560091"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Bommanahalli",
+    "division": "Bommanahalli",
+    "sub_div": "Bommanahalli",
+    "ward_no": "175",
+    "ward_name": "Bommanahalli",
+    "pin_code": [
+      "560068"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Bommanahalli",
+    "division": "Bommanahalli",
+    "sub_div": "Bommanahalli",
+    "ward_no": "188",
+    "ward_name": "Billekahalli",
+    "pin_code": [
+      "560076"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Bommanahalli",
+    "division": "Bommanahalli",
+    "sub_div": "Bommanahalli",
+    "ward_no": "189",
+    "ward_name": "Hongasandra",
+    "pin_code": [
+      "560068"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Bommanahalli",
+    "division": "Bommanahalli",
+    "sub_div": "Arakere",
+    "ward_no": "186",
+    "ward_name": "Jaraganahalli",
+    "pin_code": [
+      "560078"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Bommanahalli",
+    "division": "Bommanahalli",
+    "sub_div": "Arakere",
+    "ward_no": "187",
+    "ward_name": "Puttenahalli",
+    "pin_code": [
+      "560078"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Bommanahalli",
+    "division": "Bommanahalli",
+    "sub_div": "Arakere",
+    "ward_no": "193",
+    "ward_name": "Arakere",
+    "pin_code": [
+      "571445"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Bommanahalli",
+    "division": "Bommanahalli",
+    "sub_div": "HSR Layout",
+    "ward_no": "174",
+    "ward_name": "HSR Layout",
+    "pin_code": [
+      "560102"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Bommanahalli",
+    "division": "Bommanahalli",
+    "sub_div": "HSR Layout",
+    "ward_no": "190",
+    "ward_name": "Mangammanapalya",
+    "pin_code": [
+      "560068"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Bommanahalli",
+    "division": "Anjanapura",
+    "sub_div": "Begur",
+    "ward_no": "191",
+    "ward_name": "Singasandra",
+    "pin_code": [
+      "560068"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Bommanahalli",
+    "division": "Anjanapura",
+    "sub_div": "Begur",
+    "ward_no": "192",
+    "ward_name": "Begur",
+    "pin_code": [
+      "560068"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Bommanahalli",
+    "division": "Anjanapura",
+    "sub_div": "Anjanapura",
+    "ward_no": "194",
+    "ward_name": "Gottigere",
+    "pin_code": [
+      "560083"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Bommanahalli",
+    "division": "Anjanapura",
+    "sub_div": "Anjanapura",
+    "ward_no": "196",
+    "ward_name": "Anjanapura",
+    "pin_code": [
+      "560108"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Bommanahalli",
+    "division": "Uttarahalli",
+    "sub_div": "Yelachenahalli",
+    "ward_no": "195",
+    "ward_name": "Konanakunte",
+    "pin_code": [
+      "560062"
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Bommanahalli",
+    "division": "Uttarahalli",
+    "sub_div": "Yelachenahalli",
+    "ward_no": "185",
+    "ward_name": "Yelachenahalli",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Bommanahalli",
+    "division": "Uttarahalli",
+    "sub_div": "Uttarahalli",
+    "ward_no": "184",
+    "ward_name": "Uttarahalli",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "Bommanahalli",
+    "division": "Uttarahalli",
+    "sub_div": "Uttarahalli",
+    "ward_no": "197",
+    "ward_name": "Vasanthapura",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Mahalakshmi layout",
+    "sub_div": "Mahalakshmi Layout",
+    "ward_no": "43",
+    "ward_name": "Nandini Layout",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Mahalakshmi layout",
+    "sub_div": "Mahalakshmi Layout",
+    "ward_no": "44",
+    "ward_name": "Marappanahalli",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Mahalakshmi layout",
+    "sub_div": "Mahalakshmi Layout",
+    "ward_no": "68",
+    "ward_name": "Mahalakshmipuram",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Mahalakshmi layout",
+    "sub_div": "Mahalakshmi Layout",
+    "ward_no": "74",
+    "ward_name": "Shakthiganapathi Nagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Mahalakshmi layout",
+    "sub_div": "Nagapura",
+    "ward_no": "67",
+    "ward_name": "Nagapura",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Mahalakshmi layout",
+    "sub_div": "Nagapura",
+    "ward_no": "75",
+    "ward_name": "Shankaramata",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Mahalakshmi layout",
+    "sub_div": "Nagapura",
+    "ward_no": "102",
+    "ward_name": "Vrushabhavathinagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Malleshwaram",
+    "sub_div": "Mathikere",
+    "ward_no": "35",
+    "ward_name": "Aramane Nagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Malleshwaram",
+    "sub_div": "Mathikere",
+    "ward_no": "36",
+    "ward_name": "Mathikere",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Malleshwaram",
+    "sub_div": "Mathikere",
+    "ward_no": "45",
+    "ward_name": "Malleshwaram",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Malleshwaram",
+    "sub_div": "Malleshwaram",
+    "ward_no": "64",
+    "ward_name": "Rajamahal",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Malleshwaram",
+    "sub_div": "Malleshwaram",
+    "ward_no": "65",
+    "ward_name": "Kadimalleshwara",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Malleshwaram",
+    "sub_div": "Malleshwaram",
+    "ward_no": "66",
+    "ward_name": "Subramanyanagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Malleshwaram",
+    "sub_div": "Malleshwaram",
+    "ward_no": "76",
+    "ward_name": "Gayathrinagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Rajajinagar",
+    "sub_div": "Rajajinagar",
+    "ward_no": "99",
+    "ward_name": "Rajajinagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Rajajinagar",
+    "sub_div": "Rajajinagar",
+    "ward_no": "100",
+    "ward_name": "Basaveshwaranagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Rajajinagar",
+    "sub_div": "Rajajinagar",
+    "ward_no": "101",
+    "ward_name": "Kamakshipalya",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Rajajinagar",
+    "sub_div": "Rajajinagar",
+    "ward_no": "107",
+    "ward_name": "Shivanagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Rajajinagar",
+    "sub_div": "Srirammandira",
+    "ward_no": "97",
+    "ward_name": "Dayanandanagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Rajajinagar",
+    "sub_div": "Srirammandira",
+    "ward_no": "98",
+    "ward_name": "Prakashnagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Rajajinagar",
+    "sub_div": "Srirammandira",
+    "ward_no": "108",
+    "ward_name": "Srirammandira",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Gandhinagar",
+    "sub_div": "Gandhinagar",
+    "ward_no": "77",
+    "ward_name": "Dattathreya Temple",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Gandhinagar",
+    "sub_div": "Gandhinagar",
+    "ward_no": "94",
+    "ward_name": "Gandhinagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Gandhinagar",
+    "sub_div": "Gandhinagar",
+    "ward_no": "95",
+    "ward_name": "Subhashnagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Gandhinagar",
+    "sub_div": "Gandhinagar",
+    "ward_no": "96",
+    "ward_name": "Okalipuram",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Gandhinagar",
+    "sub_div": "Chikpet",
+    "ward_no": "109",
+    "ward_name": "Chikpet",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Gandhinagar",
+    "sub_div": "Chikpet",
+    "ward_no": "120",
+    "ward_name": "Cottonpet",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Gandhinagar",
+    "sub_div": "Chikpet",
+    "ward_no": "121",
+    "ward_name": "Binnipet",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Chamarajapet",
+    "sub_div": "Jagjeevanram Nagar",
+    "ward_no": "135",
+    "ward_name": "Padarayanapura",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Chamarajapet",
+    "sub_div": "Jagjeevanram Nagar",
+    "ward_no": "136",
+    "ward_name": "Jagjeevanram Nagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Chamarajapet",
+    "sub_div": "Jagjeevanram Nagar",
+    "ward_no": "137",
+    "ward_name": "Rayapuram",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Chamarajapet",
+    "sub_div": "Jagjeevanram Nagar",
+    "ward_no": "138",
+    "ward_name": "Chalavadipalya",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Chamarajapet",
+    "sub_div": "Chamarajpet",
+    "ward_no": "139",
+    "ward_name": "K.R. Market",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Chamarajapet",
+    "sub_div": "Chamarajpet",
+    "ward_no": "140",
+    "ward_name": "Chamarajpet",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Chamarajapet",
+    "sub_div": "Chamarajpet",
+    "ward_no": "141",
+    "ward_name": "Azadnagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Govindaraja Nagar",
+    "sub_div": "Govindarajanagara",
+    "ward_no": "103",
+    "ward_name": "Kaveripura",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Govindaraja Nagar",
+    "sub_div": "Govindarajanagara",
+    "ward_no": "104",
+    "ward_name": "Govindarajanagara",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Govindaraja Nagar",
+    "sub_div": "Govindarajanagara",
+    "ward_no": "105",
+    "ward_name": "Agrahara Dasarahalli",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Govindaraja Nagar",
+    "sub_div": "Govindarajanagara",
+    "ward_no": "105",
+    "ward_name": "Dr. Rajkumar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Govindaraja Nagar",
+    "sub_div": "Govindarajanagara",
+    "ward_no": "125",
+    "ward_name": "Marenahalli",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Govindaraja Nagar",
+    "sub_div": "Chandra Layout",
+    "ward_no": "126",
+    "ward_name": "Maruthi Mandira",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Govindaraja Nagar",
+    "sub_div": "Chandra Layout",
+    "ward_no": "127",
+    "ward_name": "Moodalapalya",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Govindaraja Nagar",
+    "sub_div": "Chandra Layout",
+    "ward_no": "128",
+    "ward_name": "Nagarbhavi",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "West",
+    "division": "Govindaraja Nagar",
+    "sub_div": "Chandra Layout",
+    "ward_no": "131",
+    "ward_name": "Nayandahalli",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Chikpet",
+    "sub_div": "Kempegowda Nagar",
+    "ward_no": "118",
+    "ward_name": "Sudamangar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Chikpet",
+    "sub_div": "Kempegowda Nagar",
+    "ward_no": "119",
+    "ward_name": "Dharmarayaswamy Temple Road",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Chikpet",
+    "sub_div": "Kempegowda Nagar",
+    "ward_no": "142",
+    "ward_name": "Sunkenahalli",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Chikpet",
+    "sub_div": "Kempegowda Nagar",
+    "ward_no": "143",
+    "ward_name": "Vishweshwarapuram",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Chikpet",
+    "sub_div": "Hombegowda Nagar",
+    "ward_no": "144",
+    "ward_name": "Siddapura",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Chikpet",
+    "sub_div": "Hombegowda Nagar",
+    "ward_no": "145",
+    "ward_name": "Hombehowdanagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Chikpet",
+    "sub_div": "Hombegowda Nagar",
+    "ward_no": "153",
+    "ward_name": "Jayanagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Vijayanagar",
+    "sub_div": "Vijayanagar",
+    "ward_no": "122",
+    "ward_name": "Kempapura Agrahara",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Vijayanagar",
+    "sub_div": "Vijayanagar",
+    "ward_no": "123",
+    "ward_name": "Vijayanagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Vijayanagar",
+    "sub_div": "Vijayanagar",
+    "ward_no": "124",
+    "ward_name": "Hosahalli",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Vijayanagar",
+    "sub_div": "Vijayanagar",
+    "ward_no": "134",
+    "ward_name": "Bapujinagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Vijayanagar",
+    "sub_div": "Gali Anjaneya Swamy Temple",
+    "ward_no": "132",
+    "ward_name": "Attiguppe",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Vijayanagar",
+    "sub_div": "Gali Anjaneya Swamy Temple",
+    "ward_no": "133",
+    "ward_name": "Hampinagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Vijayanagar",
+    "sub_div": "Gali Anjaneya Swamy Temple",
+    "ward_no": "157",
+    "ward_name": "Gali Anjaneya Swamy Temple",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Vijayanagar",
+    "sub_div": "Gali Anjaneya Swamy Temple",
+    "ward_no": "158",
+    "ward_name": "Deepanjalinagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Basavanagudi",
+    "sub_div": "Basavanagudi",
+    "ward_no": "154",
+    "ward_name": "Basavanagudi",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Basavanagudi",
+    "sub_div": "Basavanagudi",
+    "ward_no": "155",
+    "ward_name": "Hanimanthanagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Basavanagudi",
+    "sub_div": "Basavanagudi",
+    "ward_no": "164",
+    "ward_name": "Vidyapeetha",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Basavanagudi",
+    "sub_div": "Girinagar",
+    "ward_no": "154",
+    "ward_name": "Srinagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Basavanagudi",
+    "sub_div": "Girinagar",
+    "ward_no": "162",
+    "ward_name": "Girinagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Basavanagudi",
+    "sub_div": "Girinagar",
+    "ward_no": "163",
+    "ward_name": "Kathriguppe",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Padmanabhanagar",
+    "sub_div": "Padmanabhanagar",
+    "ward_no": "161",
+    "ward_name": "Hosakerehalli",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Padmanabhanagar",
+    "sub_div": "Padmanabhanagar",
+    "ward_no": "181",
+    "ward_name": "Kumaraswamy Layout",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Padmanabhanagar",
+    "sub_div": "Padmanabhanagar",
+    "ward_no": "182",
+    "ward_name": "Padmanabhanagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Padmanabhanagar",
+    "sub_div": "Padmanabhanagar",
+    "ward_no": "183",
+    "ward_name": "Chikkalasandra",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Padmanabhanagar",
+    "sub_div": "Banashankari",
+    "ward_no": "165",
+    "ward_name": "Ganeshamandira",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Padmanabhanagar",
+    "sub_div": "Banashankari",
+    "ward_no": "166",
+    "ward_name": "Karisandra",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Padmanabhanagar",
+    "sub_div": "Banashankari",
+    "ward_no": "167",
+    "ward_name": "Yediyuru",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Padmanabhanagar",
+    "sub_div": "Banashankari",
+    "ward_no": "180",
+    "ward_name": "Banashankari Temple",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "B.T.M. Layout",
+    "sub_div": "B.T.M. Layout",
+    "ward_no": "146",
+    "ward_name": "Lakkasandra",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "B.T.M. Layout",
+    "sub_div": "B.T.M. Layout",
+    "ward_no": "152",
+    "ward_name": "Sudduguntepalya",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "B.T.M. Layout",
+    "sub_div": "B.T.M. Layout",
+    "ward_no": "172",
+    "ward_name": "Madiwala",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "B.T.M. Layout",
+    "sub_div": "B.T.M. Layout",
+    "ward_no": "176",
+    "ward_name": "B.T.M. Layout",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "B.T.M. Layout",
+    "sub_div": "Koramangala",
+    "ward_no": "147",
+    "ward_name": "Adugodi",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "B.T.M. Layout",
+    "sub_div": "Koramangala",
+    "ward_no": "148",
+    "ward_name": "Ejipura",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "B.T.M. Layout",
+    "sub_div": "Koramangala",
+    "ward_no": "151",
+    "ward_name": "Koramangala",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "B.T.M. Layout",
+    "sub_div": "Koramangala",
+    "ward_no": "173",
+    "ward_name": "Jakkasandra",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Jayanagar",
+    "sub_div": "Jayanagar",
+    "ward_no": "168",
+    "ward_name": "Pattabhiramanagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Jayanagar",
+    "sub_div": "Jayanagar",
+    "ward_no": "169",
+    "ward_name": "Byrasandra",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Jayanagar",
+    "sub_div": "Jayanagar",
+    "ward_no": "170",
+    "ward_name": "Jayanagar East",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Jayanagar",
+    "sub_div": "Jayanagar",
+    "ward_no": "171",
+    "ward_name": "Gurappanapalya",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Jayanagar",
+    "sub_div": "J.P. Nagar",
+    "ward_no": "177",
+    "ward_name": "J.P. Nagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Jayanagar",
+    "sub_div": "J.P. Nagar",
+    "ward_no": "178",
+    "ward_name": "Sarakki",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "South",
+    "division": "Jayanagar",
+    "sub_div": "J.P. Nagar",
+    "ward_no": "179",
+    "ward_name": "Shakambarinagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Hebbal",
+    "sub_div": "Hebbal",
+    "ward_no": "18",
+    "ward_name": "Radhakrishna Temple",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Hebbal",
+    "sub_div": "Hebbal",
+    "ward_no": "19",
+    "ward_name": "Sanjayanagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Hebbal",
+    "sub_div": "Hebbal",
+    "ward_no": "20",
+    "ward_name": "Ganganagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Hebbal",
+    "sub_div": "Hebbal",
+    "ward_no": "21",
+    "ward_name": "Hebbal",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Hebbal",
+    "sub_div": "J.C. Nagar",
+    "ward_no": "22",
+    "ward_name": "Vishwanatha Nagenahalli",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Hebbal",
+    "sub_div": "J.C. Nagar",
+    "ward_no": "33",
+    "ward_name": "Manorayanapalya",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Hebbal",
+    "sub_div": "J.C. Nagar",
+    "ward_no": "34",
+    "ward_name": "Gangenahalli",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Hebbal",
+    "sub_div": "J.C. Nagar",
+    "ward_no": "46",
+    "ward_name": "Jayachamarajendra Nagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Pulikeshinagar",
+    "sub_div": "K.G. Halli",
+    "ward_no": "31",
+    "ward_name": "Kushalnagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Pulikeshinagar",
+    "sub_div": "K.G. Halli",
+    "ward_no": "32",
+    "ward_name": "Kavalbyrasandra",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Pulikeshinagar",
+    "sub_div": "K.G. Halli",
+    "ward_no": "48",
+    "ward_name": "Muneshwaranagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Pulikeshinagar",
+    "sub_div": "K.G. Halli",
+    "ward_no": "60",
+    "ward_name": "Sagayapuram",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Pulikeshinagar",
+    "sub_div": "Pulikeshinagar",
+    "ward_no": "47",
+    "ward_name": "Devarajeevanahalli",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Pulikeshinagar",
+    "sub_div": "Pulikeshinagar",
+    "ward_no": "61",
+    "ward_name": "S.K. Garden",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Pulikeshinagar",
+    "sub_div": "Pulikeshinagar",
+    "ward_no": "78",
+    "ward_name": "Pulikeshinagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Sarvagnanagar",
+    "sub_div": "Maruthiseva Nagar",
+    "ward_no": "27",
+    "ward_name": "Banaswadi",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Sarvagnanagar",
+    "sub_div": "Maruthiseva Nagar",
+    "ward_no": "28",
+    "ward_name": "Kammanahalli",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Sarvagnanagar",
+    "sub_div": "Maruthiseva Nagar",
+    "ward_no": "49",
+    "ward_name": "Lingarajapura",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Sarvagnanagar",
+    "sub_div": "Maruthiseva Nagar",
+    "ward_no": "59",
+    "ward_name": "Maruthiseva Nagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Sarvagnanagar",
+    "sub_div": "HBR Layout",
+    "ward_no": "23",
+    "ward_name": "Nagavara",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Sarvagnanagar",
+    "sub_div": "HBR Layout",
+    "ward_no": "24",
+    "ward_name": "HBR Layout",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Sarvagnanagar",
+    "sub_div": "HBR Layout",
+    "ward_no": "29",
+    "ward_name": "Kacharakanahalli",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Sarvagnanagar",
+    "sub_div": "HBR Layout",
+    "ward_no": "30",
+    "ward_name": "Kadugondanahalli",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "C.V. Raman Nagar",
+    "sub_div": "Jeevanbhimanagar",
+    "ward_no": "80",
+    "ward_name": "Hoysalanagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "C.V. Raman Nagar",
+    "sub_div": "Jeevanbhimanagar",
+    "ward_no": "88",
+    "ward_name": "Jeevanbhimanagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "C.V. Raman Nagar",
+    "sub_div": "Jeevanbhimanagar",
+    "ward_no": "113",
+    "ward_name": "Konena Agrahara",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "C.V. Raman Nagar",
+    "sub_div": "C.V. Raman Nagar",
+    "ward_no": "50",
+    "ward_name": "Benniganahalli",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "C.V. Raman Nagar",
+    "sub_div": "C.V. Raman Nagar",
+    "ward_no": "57",
+    "ward_name": "C.V. Raman Nagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "C.V. Raman Nagar",
+    "sub_div": "C.V. Raman Nagar",
+    "ward_no": "58",
+    "ward_name": "Hosathippasandra",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "C.V. Raman Nagar",
+    "sub_div": "C.V. Raman Nagar",
+    "ward_no": "79",
+    "ward_name": "Sarvagnanagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Shanthinagar",
+    "sub_div": "Shanthinagar",
+    "ward_no": "111",
+    "ward_name": "Shanthala Nagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Shanthinagar",
+    "sub_div": "Shanthinagar",
+    "ward_no": "116",
+    "ward_name": "Neelasandra",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Shanthinagar",
+    "sub_div": "Shanthinagar",
+    "ward_no": "117",
+    "ward_name": "Shanthinagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Shanthinagar",
+    "sub_div": "Domlur",
+    "ward_no": "89",
+    "ward_name": "Jogupalya",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Shanthinagar",
+    "sub_div": "Domlur",
+    "ward_no": "112",
+    "ward_name": "Domlur",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Shanthinagar",
+    "sub_div": "Domlur",
+    "ward_no": "114",
+    "ward_name": "Agaram",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Shanthinagar",
+    "sub_div": "Domlur",
+    "ward_no": "115",
+    "ward_name": "Vannarpet",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Shivajinagar",
+    "sub_div": "Shivajinagar",
+    "ward_no": "90",
+    "ward_name": "Ulsoor",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Shivajinagar",
+    "sub_div": "Shivajinagar",
+    "ward_no": "91",
+    "ward_name": "Bharathinagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Shivajinagar",
+    "sub_div": "Shivajinagar",
+    "ward_no": "92",
+    "ward_name": "Shivajinagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Shivajinagar",
+    "sub_div": "Vasanthnagar",
+    "ward_no": "62",
+    "ward_name": "Ramaswamy Palya",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Shivajinagar",
+    "sub_div": "Vasanthnagar",
+    "ward_no": "63",
+    "ward_name": "Jayamahal",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Shivajinagar",
+    "sub_div": "Vasanthnagar",
+    "ward_no": "93",
+    "ward_name": "Vasanthnagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  },
+  {
+    "zone": "East",
+    "division": "Shivajinagar",
+    "sub_div": "Vasanthnagar",
+    "ward_no": "110",
+    "ward_name": "Sampangiramanagar",
+    "pin_code": [
+      ""
+    ],
+    "telegram_group": null
+  }
+]

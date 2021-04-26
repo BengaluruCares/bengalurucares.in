@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap&text=Bengaluru%20Cares');
+
+.root {
+  font-family: 'Orelega One', cursive;
+  background: linear-gradient(-45deg, var(--blue600), var(--deepPurple600));
+  font-size: 4rem;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 1px 5px rgba(var(--blueGrey900_rgb), 0.2);
+}

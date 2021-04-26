@@ -41,15 +41,26 @@ This project is using [vitejs](https://vitejs.dev) for
 transpilation of our `ReactJS` project.
 
 We support `Typescript` and `Javascript` contributions alike.
-To use plain Javascript, create `.jsx?` files, else `.tsx`
+To use plain Javascript, create `.jsx?` files, else `.tsx?`
 files.
-Since our project has linter attached to it, to get rid of
-typescript linting in `.jsx?` files, add `// @ts-ignore`
-as first line in your file.
 
-No use of `Sass` or `Less` is appreciated. Either use
-plain old CSS, with PostCSS modules, or use [linaria](https://github.com/callstack/linaria)
-for `css-in-js`.
+This project supports Plain `CSS` and some `PostCSS` modules.
+Support for `SASS` or `LESS` pre-processors is not appreciated,
+as they are slow and adds an overhead. `CSS` has reached
+close to `SASS` now, and the basic needs like `variables`,
+`calc` etc. are already present in `CSS`.
+PostCSS allows you to be close to `CSS` that browsers
+support natively.
+
+There is no good PostCSS plugin for VSCode as of now,
+so this project enables `SCSS Language mode` for your `CSS`
+files.
+
+~~Use [linaria](https://github.com/callstack/linaria)~~
+~~for `css-in-js`.~~
+
+`linaria` does not has any runtime, thus `vite` fails to work with it.
+For now, no `css-in-js` support is present in this project.
 
 
 ***Do not include any heavy weight libraries, which increases***
