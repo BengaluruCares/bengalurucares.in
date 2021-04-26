@@ -1,2 +1,7 @@
 # bengalurucares.in
-The site for the Bengaluru Cares programme.
+
+We care for Bengluru
+
+## Tech Guidelines
+
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md)
