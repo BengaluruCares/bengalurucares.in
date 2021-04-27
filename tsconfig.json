@@ -2,13 +2,12 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@src/*": ["./src/*"]
+      "@src/*": ["./src/*"],
     },
     "target": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "types": ["vite/client"],
     "allowJs": true,
-    "checkJs": false,
     "skipLibCheck": false,
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
@@ -25,7 +24,7 @@
       "./typings"
     ]
   },
-  "include": ["./typings", "./src"],
+  "include": ["./typings", "./src", "./scripts"],
   "exclude": [
 		"node_modules",
 		"dist"

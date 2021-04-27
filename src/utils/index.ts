@@ -22,3 +22,24 @@ export function cx(...args: any[]): string {
   });
   return _classnames;
 }
+
+/**
+ * Controlled Fetch helps to abort an ongoing fetch request.
+ * This mostly helps for unnecessary effects when React Component
+ * unmounts.
+ */
+export const controlledFetch = <T>(
+  input: RequestInfo
+): {
+  promise: Promise<T>;
+  controller: AbortController;
+} => {
+  const controller = new AbortController();
+  const res = fetch(input, { signal: controller.signal }).then(res =>
+    res.json()
+  );
+  return {
+    promise: res,
+    controller,
+  };
+};
