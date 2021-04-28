@@ -8,7 +8,7 @@ export const App = () => {
   return (
     <div className={css.root}>
       <FetchWards />
-      <BrandHeading />
+      <BrandHeading className={css.brandTitle} />
       <Search />
     </div>
   );

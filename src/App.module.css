@@ -7,3 +7,13 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+
+.brandTitle {
+  margin-top: -2.5rem;
+}
+
+@media screen and (min-width: env(--breakpoint-md)) {
+  .brandTitle {
+    margin-top: -4rem;
+  }
+}
