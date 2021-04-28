@@ -4,7 +4,7 @@
   "scripts": {
     "postinstall": "husky install & node ./scripts/update.js",
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build --base=https://bengalurucares.github.io/bengalurucares.in/",
     "postbuild": "./bin/bglcares post-build -c -d \"dist\" \"data/**/*.json\"",
     "serve": "vite preview",
     "lint": "eslint src --ext \"ts,tsx,js,jsx\"",
