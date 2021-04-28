@@ -64,3 +64,17 @@
   --deepPurpleA400: #651fff;
   --deepPurpleA700: #6200ea;
 }
+
+:root {
+  /* Spacing */
+  --input-padding-x: 0.5rem;
+  --input-padding-y: 1rem;
+}
+
+@media (min-width: env(--breakpoint-md)) {
+  :root {
+    /* Spacing */
+    --input-padding-x: 1rem;
+    --input-padding-y: 2rem;
+  }
+}

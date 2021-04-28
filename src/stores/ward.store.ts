@@ -29,3 +29,7 @@ export default useStore;
 export const getUpdateState = (
   store: WardStore
 ): PropType<WardStore, "updateState"> => store.updateState;
+
+export const getWardList = (
+  store: WardStore
+): PropType<WardStoreState, "wardList"> => store.state.wardList;

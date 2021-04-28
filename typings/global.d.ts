@@ -4,3 +4,8 @@ declare module "*.module.pcss" {
   const classes: CSSModuleClasses;
   export default classes;
 }
+
+interface CommonReactProps {
+  className?: string;
+  style?: string;
+}

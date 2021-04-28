@@ -13,6 +13,8 @@
     "lint:fix": "yarn lint --fix"
   },
   "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "fuse.js": "^6.4.6",
     "immer": "^9.0.2",
     "modern-normalize": "^1.0.0",
     "react": "^17.0.0",

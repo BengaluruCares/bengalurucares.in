@@ -48,4 +48,26 @@ export const controlledFetch = <T>(
  * This will be used to keep our code DRY ;)
  */
 export const getUrl = (url: string): string =>
-  `${import.meta.env.BASE_URL}${url}`;
+  import.meta.env.DEV ? url : `${import.meta.env.BASE_URL}${url}`;
+
+export const addClass = (
+  element?: HTMLElement,
+  className?: string | string[]
+): void => {
+  if (element) {
+    const _className = className || [];
+    const classes = typeof _className === "string" ? [_className] : _className;
+    element.classList.add(classes.join(" "));
+  }
+};
+
+export const removeClass = (
+  element?: HTMLElement,
+  className?: string | string[]
+): void => {
+  if (element) {
+    const _className = className || [];
+    const classes = typeof _className === "string" ? [_className] : _className;
+    element.classList.remove(classes.join(" "));
+  }
+};

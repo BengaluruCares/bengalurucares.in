@@ -1,9 +1,9 @@
 {
   "cssvar.files": ["./src/theme.css"],
   "cssvar.extensions": [
-    "css", "js", "jsx", "ts", "tsx"
+    "scss", "css", "js", "jsx", "ts", "tsx"
   ],
   "files.associations": {
     "*.css": "scss"
-  },
+  }
 }

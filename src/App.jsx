@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Search, BrandHeading, FetchWards } from "./components";
+import { BrandHeading, FetchWards, Autocomplete } from "./components";
 
 import css from "./App.module.css";
 
@@ -9,7 +9,7 @@ export const App = () => {
     <div className={css.root}>
       <FetchWards />
       <BrandHeading className={css.brandTitle} />
-      <Search />
+      <Autocomplete />
     </div>
   );
 };

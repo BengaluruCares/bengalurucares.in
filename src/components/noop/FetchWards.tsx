@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-import useWardStore from "@src/stores/ward.store";
+import useWardStore, { getUpdateState } from "@src/stores/ward.store";
 import { controlledFetch, getUrl } from "@src/utils";
 
 export interface MetaDataJSON {
@@ -19,7 +19,7 @@ export interface WardDataJSON {
 }
 
 export const FetchWards: React.FC = () => {
-  const updateStore = useWardStore(store => store.updateState);
+  const updateStore = useWardStore(getUpdateState);
   useEffect(() => {
     let activeController: AbortController | null = null;
     (async () => {
@@ -41,7 +41,7 @@ export const FetchWards: React.FC = () => {
         } catch (e) {
           // NOOP
         }
-        if (!data) {
+        if (data) {
           updateStore("wardList", data);
         }
       }
