@@ -1,3 +1,3 @@
 export * from "./Search";
 export * from "./BrandHeading";
-export * from "./FetchWards";
+export * from "./noop/FetchWards";

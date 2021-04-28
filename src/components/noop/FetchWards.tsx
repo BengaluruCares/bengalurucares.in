@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 
+import useWardStore from "@src/stores/ward.store";
 import { controlledFetch } from "@src/utils";
 
 export interface MetaDataJSON {
@@ -18,21 +19,26 @@ export interface WardDataJSON {
 }
 
 export const FetchWards: React.FC = () => {
+  const updateStore = useWardStore(store => store.updateState);
   useEffect(() => {
-    let activeController: AbortController;
+    let activeController: AbortController | null = null;
     (async () => {
       const wardsMeta = await controlledFetch<MetaDataJSON>(
         "/data/wards/metadata.json"
       ).promise;
-      new Array(wardsMeta.total).fill(0).forEach(async i => {
-        const filename = `${i + 1}`.padStart(3, "0");
+      const values = new Array<number>(wardsMeta.total).fill(0).map(i => i);
+      for await (const index of values) {
+        if (activeController && activeController.signal.aborted) {
+          break;
+        }
+        const filename = `${index + 1}`.padStart(3, "0");
         const { promise, controller } = controlledFetch<WardDataJSON>(
           `/data/wards/${filename}.json`
         );
         activeController = controller;
-        const res = await promise;
-        console.log(res);
-      });
+        const data = await promise;
+        updateStore("wardList", data);
+      }
     })();
 
     return () => {

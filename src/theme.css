@@ -2,8 +2,10 @@
   /* For now using Material Colors */
   /* Blue Grey */
   --blueGrey50: #eceff1;
+  --blueGrey50_rgb: 236,239,241;
   --blueGrey100: #cfd8dc;
   --blueGrey200: #b0bec5;
+  --blueGrey200_rgb: 176,190,197;
   --blueGrey300: #90a4ae;
   --blueGrey400: #78909c;
   --blueGrey500: #607d8b;
