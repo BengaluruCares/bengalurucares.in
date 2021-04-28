@@ -6,9 +6,7 @@ const srcPath = path.resolve(__dirname, "./src");
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    reactRefresh(),
-  ],
+  plugins: [reactRefresh()],
   resolve: {
     alias: [
       {
@@ -16,5 +14,5 @@ export default defineConfig({
         replacement: `${srcPath}/$1`,
       },
     ],
-  }
+  },
 });

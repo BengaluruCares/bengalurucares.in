@@ -43,3 +43,9 @@ export const controlledFetch = <T>(
     controller,
   };
 };
+
+/**
+ * This will be used to keep our code DRY ;)
+ */
+export const getUrl = (url: string): string =>
+  `${import.meta.env.BASE_URL}${url}`;
