@@ -13,6 +13,7 @@ const log = <T extends State>(config: StateCreator<T>): StateCreator<T> => (
   config(
     args => {
       set(args);
+      // eslint-disable-next-line no-console
       console.log("  %cNew State:: ", "color: #ef9a9a", get().state);
     },
     get,

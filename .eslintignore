@@ -1,5 +1,6 @@
 typings/
-postcss.config.js
+*.config.js
+.eslintrc.js
 vite.config.ts
 scripts/
 dist/

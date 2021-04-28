@@ -26,18 +26,24 @@ export const FetchWards: React.FC = () => {
       const wardsMeta = await controlledFetch<MetaDataJSON>(
         "/data/wards/metadata.json"
       ).promise;
-      const values = new Array<number>(wardsMeta.total).fill(0).map(i => i);
-      for await (const index of values) {
+      for (let index = 0; index < wardsMeta.total; index++) {
         if (activeController && activeController.signal.aborted) {
-          break;
+          return;
         }
         const filename = `${index + 1}`.padStart(3, "0");
         const { promise, controller } = controlledFetch<WardDataJSON>(
           `/data/wards/${filename}.json`
         );
         activeController = controller;
-        const data = await promise;
-        updateStore("wardList", data);
+        let data = undefined;
+        try {
+          data = await promise;
+        } catch (e) {
+          // NOOP
+        }
+        if (!data) {
+          updateStore("wardList", data);
+        }
       }
     })();
 
