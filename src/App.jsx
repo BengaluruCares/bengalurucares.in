@@ -1,5 +1,3 @@
-import React from "react";
-
 import { BrandHeading, FetchWards, Autocomplete } from "./components";
 
 import css from "./App.module.css";

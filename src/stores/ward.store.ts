@@ -4,10 +4,12 @@ import { WardDataJSON } from "@src/components/noop";
 
 export interface WardStoreState {
   wardList: WardDataJSON[];
+  selected: WardDataJSON | null;
 }
 
 const INITIAL_STATE: WardStoreState = {
   wardList: [],
+  selected: null,
 };
 
 export interface WardStore extends State {
@@ -33,3 +35,7 @@ export const getUpdateState = (
 export const getWardList = (
   store: WardStore
 ): PropType<WardStoreState, "wardList"> => store.state.wardList;
+
+export const getSelectedWard = (
+  store: WardStore
+): PropType<WardStoreState, "selected"> => store.state.selected;

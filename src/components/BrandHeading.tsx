@@ -1,4 +1,3 @@
-import React from "react";
 import { cx } from "@src/utils";
 
 import css from "./BrandHeading.module.css";

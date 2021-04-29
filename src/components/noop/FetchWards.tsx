@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 import useWardStore, { getUpdateState } from "@src/stores/ward.store";
 import { controlledFetch, getUrl } from "@src/utils";

@@ -8,9 +8,20 @@ const commonPlugins = ["react", "prettier"];
 
 const commonRules = {
   "prettier/prettier": "error",
+  "no-restricted-imports": [
+    "error",
+    {
+      paths: [{
+          name: "react",
+          importNames: ["default"],
+          message: "React is globally imported to support new JSX transform"
+      }],
+    }
+  ],
   "react/display-name": 0,
   "react/prop-types": 0,
-  "react/react-in-jsx-scope": 2,
+  "react/react-in-jsx-scope": 0,
+  "react/jsx-no-undef": 0,
   "no-console": 2,
   "react/jsx-filename-extension": [1, { extensions: [".tsx", ".jsx"] }],
 };

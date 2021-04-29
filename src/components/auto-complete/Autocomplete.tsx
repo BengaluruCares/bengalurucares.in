@@ -1,16 +1,18 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 // Do not import directly from @popperjs/core, read the docs
 import { createPopper } from "@popperjs/core/lib/createPopper";
 import type { Instance, Modifier } from "@popperjs/core";
 import maxSize from "popper-max-size-modifier";
 import Fuse from "fuse.js";
-
-import useWardStore, { getWardList } from "@src/stores/ward.store";
-import { Search } from "@src/components";
-import css from "./Autocomplete.module.css";
-import { SearchProps } from "../Search";
 import { useImmer } from "use-immer";
+
+import useWardStore, {
+  getUpdateState,
+  getWardList,
+} from "@src/stores/ward.store";
+import { Search, SearchProps } from "@src/components";
 import { WardDataJSON } from "../noop";
+import css from "./Autocomplete.module.css";
 import { cx, KEY_CODES } from "@src/utils";
 
 type Item = WardDataJSON & { active?: boolean };
@@ -95,6 +97,7 @@ export const Autocomplete: React.FC<AutocompleteProps> = () => {
     activeWard: null,
   });
 
+  const updateStore = useWardStore(getUpdateState);
   const list = useWardStore(getWardList);
 
   useEffect(() => {
@@ -140,6 +143,7 @@ export const Autocomplete: React.FC<AutocompleteProps> = () => {
       draft.list = [];
       draft.activeWard = item;
     });
+    updateStore("selected", item);
   };
 
   const handleKeyDownUpdate: React.KeyboardEventHandler = ev => {

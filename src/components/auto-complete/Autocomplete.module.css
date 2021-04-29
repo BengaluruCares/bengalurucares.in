@@ -52,13 +52,6 @@
 .wardNo {
   flex: 0 0 auto;
   width: 40px;
-  color: var(--blueGrey300);
-  > * {
-    border-radius: 2px;
-    padding: 2px 4px;
-    border: 1px solid var(--blueGrey50);
-    background-color: var(--grey50);
-  }
 }
 
 .content {
