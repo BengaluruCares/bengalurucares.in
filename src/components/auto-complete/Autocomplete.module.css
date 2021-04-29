@@ -23,12 +23,13 @@
   box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -10px rgba(0, 0, 0, 0.3);
   background-color: #fff;
   overflow: auto;
-  height: 100%;
+  transform-origin: 0 0;
 }
 
 .item {
   padding: var(--input-pad-x) var(--input-pad-x);
   cursor: pointer;
+  overflow: hidden;
 
   & + & {
     border-top: 1px solid var(--grey300);

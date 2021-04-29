@@ -1,10 +1,11 @@
-import { useEffect, useRef } from "react";
+import { useCallback, useEffect, useRef } from "react";
 // Do not import directly from @popperjs/core, read the docs
 import { createPopper } from "@popperjs/core/lib/createPopper";
 import type { Instance, Modifier } from "@popperjs/core";
 import maxSize from "popper-max-size-modifier";
 import Fuse from "fuse.js";
 import { useImmer } from "use-immer";
+import { useSpring, animated } from "react-spring";
 
 import useWardStore, {
   getUpdateState,
@@ -20,11 +21,21 @@ type Item = WardDataJSON & { active?: boolean };
 
 export interface AutocompleteListItem extends CommonReactProps {
   value: Item;
+  animate?: boolean;
   onClick?: (item: Item) => void;
 }
 
 export const AutocompleteListItem: React.FC<AutocompleteListItem> = props => {
   const rootRef = useRef<HTMLLIElement>(null);
+  const styles = useSpring({
+    from: {
+      opacity: 0.2,
+    },
+    to: {
+      opacity: 1,
+    },
+    delay: 100,
+  });
 
   const rootClasses = cx(css.item, {
     [css.active]: props.value.active,
@@ -36,12 +47,12 @@ export const AutocompleteListItem: React.FC<AutocompleteListItem> = props => {
       className={rootClasses}
       onClick={() => props.onClick && props.onClick(props.value)}
     >
-      <span className={css.itemContent}>
+      <animated.span style={styles} className={css.itemContent}>
         <span className={css.wardNo}>
           <Badge>#{props.value.ward_no}</Badge>
         </span>
         <span className={css.content}>{props.value.ward_name}</span>
-      </span>
+      </animated.span>
     </li>
   );
 };
@@ -62,7 +73,9 @@ const options = {
   keys: ["division", "sub_div", "ward_no", "ward_name"],
 };
 
-const applyMaxSize: Modifier<string, { modifiersData: any }> = {
+const applyMaxSize: (
+  callback?: (height: number, padding: number) => void
+) => Modifier<string, { modifiersData: any }> = cb => ({
   name: "applyMaxSize",
   enabled: true,
   phase: "beforeWrite",
@@ -70,12 +83,15 @@ const applyMaxSize: Modifier<string, { modifiersData: any }> = {
   fn({ state }) {
     let { height } = state.modifiersData.maxSize;
     const computedStyles = getComputedStyle(state.elements.popper);
-    const child = state.elements.popper.children[0] as HTMLUListElement;
     height = Math.max(200, height);
-    state.elements.popper.style.maxHeight = `${height}px`;
-    child.style.maxHeight = `calc(${height}px - ${computedStyles.paddingBottom})`;
+    state.elements.popper.style.height = `${height}px`;
+    const padding = parseInt(
+      computedStyles.paddingBottom.replace(/\D+/, ""),
+      10
+    );
+    cb && cb(height, padding);
   },
-};
+});
 
 const updateActive = (list: Item[], update: 1 | -1) => {
   let activeIndex = -1;
@@ -92,15 +108,33 @@ const updateActive = (list: Item[], update: 1 | -1) => {
 export const Autocomplete: React.FC<AutocompleteProps> = () => {
   const inputRef = useRef<HTMLSpanElement>(null);
   const popupRef = useRef<HTMLDivElement>(null);
+  const listRef = useRef<HTMLUListElement>(null);
   const popperRef = useRef<Instance>();
   const fuseRef = useRef<Fuse<WardDataJSON>>();
   const [state, updateState] = useImmer<AutocompleteState>({
     list: [],
     activeWard: null,
   });
+  const open = state.list.length > 0;
+  const [props, springApi] = useSpring(() => ({
+    opacity: 0.5,
+    y: 10,
+  }));
 
   const updateStore = useWardStore(getUpdateState);
   const list = useWardStore(getWardList);
+
+  const handleMeasure = useCallback(
+    (height: number, padding: number) => {
+      if (!listRef.current) return;
+      listRef.current.style.maxHeight = `${height - padding}px`;
+      springApi.start({
+        opacity: open ? 1 : 0.5,
+        y: open ? 0 : 10,
+      });
+    },
+    [springApi, open]
+  );
 
   useEffect(() => {
     const handleResize = () => {
@@ -113,15 +147,21 @@ export const Autocomplete: React.FC<AutocompleteProps> = () => {
   }, []);
 
   useEffect(() => {
-    if (!inputRef.current || !popupRef.current) return;
-    // Will fix this popper once I get time.
-    popperRef.current = createPopper(inputRef.current, popupRef.current, {
-      modifiers: [maxSize, applyMaxSize],
-    });
     return () => {
       popperRef.current?.destroy();
     };
-  }, []);
+  });
+
+  useEffect(() => {
+    if (!inputRef.current || !popupRef.current) return;
+    // Will fix this popper once I get time.
+    popperRef.current = createPopper(inputRef.current, popupRef.current, {
+      modifiers: [maxSize, applyMaxSize(handleMeasure)],
+    });
+    return () => {
+      popperRef.current?.update();
+    };
+  }, [handleMeasure]);
 
   useEffect(() => {
     fuseRef.current = new Fuse(list, options);
@@ -185,7 +225,7 @@ export const Autocomplete: React.FC<AutocompleteProps> = () => {
   };
 
   const listClasses = cx(css.listWrapper, {
-    show: state.list.length > 0,
+    show: open,
   });
 
   return (
@@ -210,7 +250,12 @@ export const Autocomplete: React.FC<AutocompleteProps> = () => {
         onKeyDown={handleSearchKeyDown}
       />
       <div ref={popupRef} className={listClasses} onKeyDown={handleKeyDown}>
-        <ul tabIndex={0} className={css.list}>
+        <animated.ul
+          ref={listRef}
+          style={props}
+          tabIndex={0}
+          className={css.list}
+        >
           {state.list.map(item => (
             <AutocompleteListItem
               key={item.ward_no}
@@ -218,7 +263,7 @@ export const Autocomplete: React.FC<AutocompleteProps> = () => {
               value={item}
             />
           ))}
-        </ul>
+        </animated.ul>
       </div>
     </div>
   );

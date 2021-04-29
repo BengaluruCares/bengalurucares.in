@@ -7,5 +7,5 @@ declare module "*.module.pcss" {
 
 interface CommonReactProps {
   className?: string;
-  style?: string;
+  style?: React.CSSProperties;
 }
