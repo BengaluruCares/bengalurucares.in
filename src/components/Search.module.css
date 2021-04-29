@@ -32,6 +32,17 @@
   font-size: 1.5rem;
 }
 
+.placeholder {
+  position: absolute;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  padding: 1rem;
+  color: var(--grey400);
+  pointer-events: none;
+}
+
 @media (min-width: env(--breakpoint-sm)) {
   .root {
     margin: unset;

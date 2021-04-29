@@ -176,13 +176,28 @@ export const Autocomplete: React.FC<AutocompleteProps> = () => {
   };
 
   const listClasses = cx(css.listWrapper, {
-    [css.show]: state.list.length > 0,
+    show: state.list.length > 0,
   });
 
   return (
     <div className={css.root}>
       <Search
         ref={inputRef}
+        placeholder={
+          <>
+            <b>
+              <i>Ward</i>
+            </b>
+            ,&nbsp;
+            <b>
+              <i>District</i>
+            </b>
+            ,&nbsp;
+            <b>
+              <i>Place</i>
+            </b>
+          </>
+        }
         value={state.activeWard?.ward_name}
         onChange={handleChange}
         onKeyDown={handleSearchKeyDown}

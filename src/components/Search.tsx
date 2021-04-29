@@ -6,6 +6,7 @@ import css from "./Search.module.css";
 
 export interface SearchProps extends CommonReactProps {
   value?: string;
+  placeholder?: React.ReactNode;
   onChange?: React.ChangeEventHandler<HTMLInputElement>;
   onKeyDown?: React.KeyboardEventHandler<HTMLInputElement>;
 }
@@ -39,6 +40,9 @@ export const Search = React.forwardRef<HTMLSpanElement, SearchProps>(
     const rootClasses = cx(css.root, props.className, {
       [css.focus]: state.focused,
     });
+    const placeholderClasses = cx(css.placeholder, {
+      hidden: !!state.value,
+    });
     return (
       <span ref={ref} className={rootClasses}>
         <input
@@ -50,6 +54,9 @@ export const Search = React.forwardRef<HTMLSpanElement, SearchProps>(
           value={state.value}
           className={css.input}
         />
+        {props.placeholder && (
+          <span className={placeholderClasses}>{props.placeholder}</span>
+        )}
       </span>
     );
   }

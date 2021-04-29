@@ -9,10 +9,6 @@
   z-index: 1;
   padding-bottom: 2rem;
   overflow: hidden;
-
-  &.show {
-    display: block;
-  }
 }
 
 .list {
