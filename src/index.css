@@ -1,6 +1,11 @@
 @import "./theme.css";
 @import 'modern-normalize/modern-normalize.css';
 
+:root {
+  font-size: 14px;
+  padding: 0 var(--root-pad-x);
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,4 +26,10 @@ body, #root {
 
 .hidden {
   display: none !important;
+}
+
+@media (min-width: env(--breakpoint-sm)) {
+  :root {
+    font-size: 16px;
+  }
 }

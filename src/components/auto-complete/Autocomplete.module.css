@@ -27,7 +27,7 @@
 }
 
 .item {
-  padding: var(--input-padding-x) var(--input-padding-x);
+  padding: var(--input-pad-x) var(--input-pad-x);
   cursor: pointer;
 
   & + & {
@@ -41,4 +41,29 @@
   &.active {
     background-color: var(--blueGrey100);
   }
+}
+
+.itemContent {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wardNo {
+  flex: 0 0 auto;
+  width: 40px;
+  color: var(--blueGrey300);
+  > * {
+    border-radius: 2px;
+    padding: 2px 4px;
+    border: 1px solid var(--blueGrey50);
+    background-color: var(--grey50);
+  }
+}
+
+.content {
+  flex: 1;
+  padding: 0 1rem;
+  font-weight: bold;
+  color: var(--blueGrey700);
 }

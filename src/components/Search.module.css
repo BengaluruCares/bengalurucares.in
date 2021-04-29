@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   transition: all 0.3s ease-in-out;
-  margin: 0 1rem;
 
   &:hover {
     border: 1px solid var(--blueGrey400);
@@ -21,7 +20,7 @@
 
 .input {
   margin: 0;
-  padding: var(--input-padding-x) var(--input-padding-x);
+  padding: var(--input-pad-x) var(--input-pad-x);
   background-color: transparent;
   border: unset;
   outline: unset;
@@ -29,7 +28,7 @@
   height: 100%;
   min-width: 100px;
   min-height: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .placeholder {
@@ -41,12 +40,6 @@
   padding: 1rem;
   color: var(--grey400);
   pointer-events: none;
-}
-
-@media (min-width: env(--breakpoint-sm)) {
-  .root {
-    margin: unset;
-  }
 }
 
 @media (min-width: env(--breakpoint-md)) {

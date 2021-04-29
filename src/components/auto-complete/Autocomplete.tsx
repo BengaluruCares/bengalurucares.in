@@ -34,7 +34,9 @@ export const AutocompleteListItem: React.FC<AutocompleteListItem> = props => {
       onClick={() => props.onClick && props.onClick(props.value)}
     >
       <span className={css.itemContent}>
-        <span className={css.id}>{props.value.ward_no}</span>
+        <span className={css.wardNo}>
+          <span>#{props.value.ward_no}</span>
+        </span>
         <span className={css.content}>{props.value.ward_name}</span>
       </span>
     </li>
@@ -183,18 +185,16 @@ export const Autocomplete: React.FC<AutocompleteProps> = () => {
     <div className={css.root}>
       <Search
         ref={inputRef}
+        className={css.input}
         placeholder={
           <>
+            <span>Enter </span>
             <b>
-              <i>Ward</i>
+              <i>“Ward”</i>
             </b>
-            ,&nbsp;
+            <span> or </span>
             <b>
-              <i>District</i>
-            </b>
-            ,&nbsp;
-            <b>
-              <i>Place</i>
+              <i>“District”</i>
             </b>
           </>
         }

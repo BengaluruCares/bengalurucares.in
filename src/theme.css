@@ -67,14 +67,24 @@
 
 :root {
   /* Spacing */
-  --input-padding-x: 0.5rem;
-  --input-padding-y: 1rem;
+  --root-pad-x: 0.875rem;
+  --root-pad-y: 1.75rem;
+  --input-pad-x: 0.875rem;
+  --input-pad-y: 1.75rem;
+}
+
+@media (min-width: env(--breakpoint-sm)) {
+  :root {
+    /* Spacing */
+    --root-pad-x: 0.875rem;
+    --root-pad-y: 1.75rem;
+  }
 }
 
 @media (min-width: env(--breakpoint-md)) {
   :root {
     /* Spacing */
-    --input-padding-x: 1rem;
-    --input-padding-y: 2rem;
+    --input-pad-x: 1rem;
+    --input-pad-y: 2rem;
   }
 }
