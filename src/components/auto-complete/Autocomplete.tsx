@@ -15,6 +15,7 @@ import { WardDataJSON } from "../noop";
 import css from "./Autocomplete.module.css";
 import { cx, KEY_CODES } from "@src/utils";
 
+//#region Autocomplete List Item
 type Item = WardDataJSON & { active?: boolean };
 
 export interface AutocompleteListItem extends CommonReactProps {
@@ -44,6 +45,7 @@ export const AutocompleteListItem: React.FC<AutocompleteListItem> = props => {
     </li>
   );
 };
+//#endregion
 
 //#region Autocomplete Component
 export interface AutocompleteProps {
@@ -69,7 +71,7 @@ const applyMaxSize: Modifier<string, { modifiersData: any }> = {
     let { height } = state.modifiersData.maxSize;
     const computedStyles = getComputedStyle(state.elements.popper);
     const child = state.elements.popper.children[0] as HTMLUListElement;
-    height = Math.max(400, height);
+    height = Math.max(200, height);
     state.elements.popper.style.maxHeight = `${height}px`;
     child.style.maxHeight = `calc(${height}px - ${computedStyles.paddingBottom})`;
   },
