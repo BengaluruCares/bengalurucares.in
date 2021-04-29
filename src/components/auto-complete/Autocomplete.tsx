@@ -133,6 +133,7 @@ export const Autocomplete: React.FC<AutocompleteProps> = () => {
       const list: PropType<AutocompleteState, "list"> = result
         .slice(0, 5)
         .map(element => ({ ...element.item }));
+      list.forEach((item, i) => i === 0 && (item.active = true));
       draft.list = list;
     });
   };
