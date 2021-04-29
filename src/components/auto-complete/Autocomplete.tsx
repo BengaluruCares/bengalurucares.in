@@ -17,6 +17,7 @@ type Item = WardDataJSON & { active?: boolean };
 
 export interface AutocompleteListItem extends CommonReactProps {
   value: Item;
+  onClick?: (item: Item) => void;
 }
 
 export const AutocompleteListItem: React.FC<AutocompleteListItem> = props => {
@@ -26,8 +27,16 @@ export const AutocompleteListItem: React.FC<AutocompleteListItem> = props => {
     [css.active]: props.value.active,
   });
   return (
-    <li ref={rootRef} tabIndex={0} className={rootClasses}>
-      {props.value.ward_name}
+    <li
+      ref={rootRef}
+      tabIndex={0}
+      className={rootClasses}
+      onClick={() => props.onClick && props.onClick(props.value)}
+    >
+      <span className={css.itemContent}>
+        <span className={css.id}>{props.value.ward_no}</span>
+        <span className={css.content}>{props.value.ward_name}</span>
+      </span>
     </li>
   );
 };
@@ -39,6 +48,7 @@ export interface AutocompleteProps {
 
 interface AutocompleteState {
   list: Item[];
+  activeWard: Item | null;
 }
 
 const options = {
@@ -80,6 +90,7 @@ export const Autocomplete: React.FC<AutocompleteProps> = () => {
   const fuseRef = useRef<Fuse<WardDataJSON>>();
   const [state, updateState] = useImmer<AutocompleteState>({
     list: [],
+    activeWard: null,
   });
 
   const list = useWardStore(getWardList);
@@ -121,21 +132,15 @@ export const Autocomplete: React.FC<AutocompleteProps> = () => {
     });
   };
 
-  const handleSearchKeyDown: React.KeyboardEventHandler = ev => {
-    if (
-      ev.code === KEY_CODES.ArrowDown ||
-      ev.code === KEY_CODES.KEYCODE_DPAD_DOWN
-    ) {
-      ev.preventDefault();
-      ev.stopPropagation();
-      popupRef.current?.focus();
-      updateState(draft => {
-        updateActive(draft.list, 1);
-      });
-    }
+  const handleItemClick = (item?: Item) => {
+    if (!item) return;
+    updateState(draft => {
+      draft.list = [];
+      draft.activeWard = item;
+    });
   };
 
-  const handleKeyDown: React.KeyboardEventHandler = ev => {
+  const handleKeyDownUpdate: React.KeyboardEventHandler = ev => {
     if (
       ev.code === KEY_CODES.ArrowDown ||
       ev.code === KEY_CODES.KEYCODE_DPAD_DOWN
@@ -158,8 +163,16 @@ export const Autocomplete: React.FC<AutocompleteProps> = () => {
     }
 
     if (ev.code === KEY_CODES.Enter) {
-      // TODO selected
+      handleItemClick(state.list.find(item => item.active));
     }
+  };
+
+  const handleSearchKeyDown: React.KeyboardEventHandler = ev => {
+    handleKeyDownUpdate(ev);
+  };
+
+  const handleKeyDown: React.KeyboardEventHandler = ev => {
+    handleKeyDownUpdate(ev);
   };
 
   const listClasses = cx(css.listWrapper, {
@@ -170,13 +183,18 @@ export const Autocomplete: React.FC<AutocompleteProps> = () => {
     <div className={css.root}>
       <Search
         ref={inputRef}
+        value={state.activeWard?.ward_name}
         onChange={handleChange}
         onKeyDown={handleSearchKeyDown}
       />
       <div ref={popupRef} className={listClasses} onKeyDown={handleKeyDown}>
         <ul tabIndex={0} className={css.list}>
           {state.list.map(item => (
-            <AutocompleteListItem key={item.ward_no} value={item} />
+            <AutocompleteListItem
+              key={item.ward_no}
+              onClick={handleItemClick}
+              value={item}
+            />
           ))}
         </ul>
       </div>
