@@ -24,6 +24,12 @@
   margin-top: -2.5rem;
 }
 
+.card {
+  width: 100%;
+  max-width: 400px;
+  margin-top: var(--pad-xl);
+}
+
 @media screen and (min-width: env(--breakpoint-md)) {
   .brandTitle {
     margin-top: -4rem;

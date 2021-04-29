@@ -10,7 +10,7 @@ import useWardStore, {
   getUpdateState,
   getWardList,
 } from "@src/stores/ward.store";
-import { Search, SearchProps } from "@src/components";
+import { Search, SearchProps, Badge } from "@src/components";
 import { WardDataJSON } from "../noop";
 import css from "./Autocomplete.module.css";
 import { cx, KEY_CODES } from "@src/utils";
@@ -37,7 +37,7 @@ export const AutocompleteListItem: React.FC<AutocompleteListItem> = props => {
     >
       <span className={css.itemContent}>
         <span className={css.wardNo}>
-          <span>#{props.value.ward_no}</span>
+          <Badge>#{props.value.ward_no}</Badge>
         </span>
         <span className={css.content}>{props.value.ward_name}</span>
       </span>

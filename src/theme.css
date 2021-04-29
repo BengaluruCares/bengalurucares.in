@@ -67,6 +67,11 @@
 
 :root {
   /* Spacing */
+  --pad-xs: 0.25rem;
+  --pad-sm: 0.5rem;
+  --pad-md: 1rem;
+  --pad-lg: 1.5rem;
+  --pad-xl: 2rem;
   --root-pad-x: 0.875rem;
   --root-pad-y: 1.75rem;
   --input-pad-x: 0.875rem;

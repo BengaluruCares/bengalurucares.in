@@ -1,0 +1,80 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+  width: 100%;
+  max-width: 400px;
+  padding: var(--pad-md) var(--pad-lg);;
+  background-color: var(--blue50);
+  border-radius: 8px;
+}
+
+.header {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  font-size: 0.875rem;
+}
+
+.title {
+  flex: 1 1 auto;
+  min-width: 100px;
+  text-align: center;
+  color: var(--blue800);
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.pinBadge {
+  display: flex;
+  align-items: center;
+}
+
+.pin {
+  margin-left: 0.25rem;
+}
+
+.content {
+  text-align: center;
+  margin-top: var(--pad-lg);
+}
+
+a {
+  display: block;
+  text-decoration: unset;
+  font-weight: bold;
+  color: var(--blueA400);
+  cursor: pointer;
+  word-break: break-all;
+  hyphens: auto;
+  padding: var(--pad-sm) var(--pad-md);
+  background-color: var(--grey100);
+  border-radius: 4px;
+
+
+  &:hover, &:focus {
+    color: var(--blue600);
+  }
+
+  &:active {
+    color: var(--blueGrey600);
+  }
+}
+
+.emptyPlaceholder {
+  padding: var(--pad-md) var(--pad-lg);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--grey500);
+  border-radius: 4px;
+  border: 3px solid var(--blueGrey100);
+  background-color: var(--grey100);
+}

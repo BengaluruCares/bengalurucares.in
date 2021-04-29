@@ -1,4 +1,4 @@
-import { BrandHeading, FetchWards, Autocomplete } from "./components";
+import { BrandHeading, FetchWards, Autocomplete, WardCard } from "./components";
 
 import css from "./App.module.css";
 
@@ -8,6 +8,9 @@ export const App = () => {
       <FetchWards />
       <BrandHeading className={css.brandTitle} />
       <Autocomplete />
+      <div className={css.card}>
+        <WardCard />
+      </div>
     </div>
   );
 };

@@ -51,7 +51,7 @@
 
 .wardNo {
   flex: 0 0 auto;
-  width: 40px;
+  min-width: 45px;
 }
 
 .content {
