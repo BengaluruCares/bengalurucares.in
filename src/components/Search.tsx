@@ -1,5 +1,6 @@
 import { forwardRef, useEffect } from "react";
 import { useImmer } from "use-immer";
+import debounce from "lodash/debounce";
 
 import { cx } from "@src/utils";
 import css from "./Search.module.css";
@@ -33,7 +34,9 @@ export const Search = forwardRef<HTMLSpanElement, SearchProps>((props, ref) => {
     updateState(draft => {
       draft.value = ev.target.value;
     });
-    props.onChange && props.onChange(ev);
+    debounce(() => {
+      props.onChange && props.onChange(ev);
+    }, 100)();
   };
 
   const rootClasses = cx(css.root, props.className, {

@@ -11,12 +11,18 @@ const commonRules = {
   "no-restricted-imports": [
     "error",
     {
-      paths: [{
+      paths: [
+        {
           name: "react",
           importNames: ["default"],
-          message: "React is globally imported to support new JSX transform"
-      }],
-    }
+          message: "React is globally imported to support new JSX transform",
+        },
+        "lodash"
+      ],
+      patterns: [
+        "!lodash/*",
+      ]
+    },
   ],
   "react/display-name": 0,
   "react/prop-types": 0,
