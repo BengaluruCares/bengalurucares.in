@@ -4,7 +4,7 @@
   "scripts": {
     "postinstall": "husky install & node ./scripts/update.js",
     "dev": "vite",
-    "build": "tsc && vite build --base=https://bengalurucares.github.io/bengalurucares.in",
+    "build": "tsc && vite build --base=https://bengalurucares.github.io/bengalurucares.in/",
     "build:dev": "tsc && vite build",
     "postbuild": "./bin/bglcares post-build -c -d \"dist\" \"data/**/*.json\"",
     "postbuild:dev": "yarn postbuild",

@@ -24,7 +24,7 @@ export const FetchWards: React.FC = () => {
     let activeController: AbortController | null = null;
     (async () => {
       const wardsMeta = await controlledFetch<MetaDataJSON>(
-        getUrl("/data/wards/metadata.json")
+        getUrl("data/wards/metadata.json")
       ).promise;
       for (let index = 0; index < wardsMeta.total; index++) {
         if (activeController && activeController.signal.aborted) {
@@ -32,7 +32,7 @@ export const FetchWards: React.FC = () => {
         }
         const filename = `${index + 1}`.padStart(3, "0");
         const { promise, controller } = controlledFetch<WardDataJSON>(
-          getUrl(`/data/wards/${filename}.json`)
+          getUrl(`data/wards/${filename}.json`)
         );
         activeController = controller;
         let data = undefined;
