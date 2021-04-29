@@ -1763,6 +1763,11 @@ please-upgrade-node@^3.2.0:
   dependencies:
     semver-compare "^1.0.0"
 
+popper-max-size-modifier@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/popper-max-size-modifier/-/popper-max-size-modifier-0.2.0.tgz#1574744401296a488b4974909d130a85db94256f"
+  integrity sha512-UerPt9pZfTFnpSpIBVJrR3ibHMuU1k5K01AyNLfMUWCr4z1MFH+dsayPlAF9ZeYExa02HPiQn5OIMqUSVtJEbg==
+
 postcss-env-function@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/postcss-env-function/-/postcss-env-function-3.0.0.tgz#c375a280d820f1f7d9289743ebc73d39c1a7b0ea"

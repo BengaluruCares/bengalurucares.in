@@ -6,6 +6,7 @@ import css from "./Search.module.css";
 
 export interface SearchProps extends CommonReactProps {
   onChange?: React.ChangeEventHandler<HTMLInputElement>;
+  onKeyDown?: React.KeyboardEventHandler<HTMLInputElement>;
 }
 
 export const Search = React.forwardRef<HTMLSpanElement, SearchProps>(
@@ -29,6 +30,7 @@ export const Search = React.forwardRef<HTMLSpanElement, SearchProps>(
           onBlur={() => handleFocus(false)}
           onFocus={() => handleFocus(true)}
           onChange={props.onChange}
+          onKeyDown={props.onKeyDown}
           type="text"
           className={css.input}
         />
